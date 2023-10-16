@@ -32,7 +32,7 @@ public class Frog : MonoBehaviour
 
     private void HandleGridMovement()
     {
-        gridMoveTimer += Time.deltaTime;
+        gridMoveTimer += Time.deltaTime; // delta entre un frame y el siguiente
         if (gridMoveTimer >= gridMoveTimerMax)
         {
             gridMoveTimer -= gridMoveTimerMax;
